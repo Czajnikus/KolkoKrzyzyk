@@ -22,7 +22,7 @@ public class Menu {
                     break;
                 case 2:
                     size = 5;
-                    System.out.println("In Progress");;
+                    System.out.println("In Progress");
                     break;
 
             }
