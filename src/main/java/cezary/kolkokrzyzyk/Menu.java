@@ -1,5 +1,6 @@
 package cezary.kolkokrzyzyk;
 
+import java.awt.BorderLayout;
 import java.util.Scanner;
 
 
@@ -21,7 +22,7 @@ public class Menu {
                     break;
                 case 2:
                     size = 5;
-                    Board.gameStartingBoxes(size);
+                    System.out.println("In Progress");;
                     break;
 
             }
