@@ -1,4 +1,4 @@
-package cezary.kolkokrzyzyk;
+package cezary.games;
 
 import java.util.Scanner;
 
@@ -8,7 +8,6 @@ public class Board {
         Scanner scanner = new Scanner(System.in);
         String[][] board = new String[size][size];
 
-        boolean gameSession = true;
         int turn = 1;
 
         for (int a = 0; a < board.length; a++) {
@@ -18,7 +17,7 @@ public class Board {
             }
         }
 
-        while (gameSession) {
+        while (turn <10) {
             gameGrid(board);
             if (turn % 2 == 1) {
                 System.out.println("Gdzie postawić krzyżyk?");
@@ -51,6 +50,8 @@ public class Board {
             }
 
         }
+        System.out.println("Remis!");
+        Menu.menu();
 
     }
 

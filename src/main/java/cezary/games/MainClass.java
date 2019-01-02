@@ -1,6 +1,6 @@
-package cezary.kolkokrzyzyk;
+package cezary.games;
 
-public class TicTacToe {
+public class MainClass {
 
     public static void main(String[] args) {
 
